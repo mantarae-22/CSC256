@@ -1,0 +1,70 @@
+body{
+    background-color: lightgrey;
+    color: blue;
+    font-size: 18pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+article{
+    background-color: lightblue;
+}
+
+/* These styles are courtesy of w3schools
+https://www.w3schools.com/Css/css_navbar_horizontal.asp
+*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+/* this code is courtesy of w3schools
+https://www.w3schools.com/csS/css3_flexbox_responsive.asp
+*/
+  .flex-container {
+    display: flex;
+    /*flex-direction: row;*/
+    font-size: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    /*flex: 50%;*/
+  }
+  
+  .flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    /*flex: 50%;*/
+  }
+
+  .box{
+    float: left;
+    width: 250px;
+    height: 118px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
